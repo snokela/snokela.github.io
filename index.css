@@ -571,6 +571,10 @@ body:not(.user-is-tabbing) a:focus {
   max-width: var(--container-medium-width);
 }
 
+.contact__info_icon {
+  padding-top: 25px;
+}
+
 /* --------------------------------------- */
 /* ----- Footer ----- */
 /* --------------------------------------- */
