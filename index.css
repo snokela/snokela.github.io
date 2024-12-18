@@ -610,6 +610,10 @@ body:not(.user-is-tabbing) a:focus {
   transform: translateY(3px);
 }
 
+.credit_p {
+  font-size: small;
+}
+
 @media(max-width: 500px) {
   .footer {
       padding: var(--gutter-medium) 0;
