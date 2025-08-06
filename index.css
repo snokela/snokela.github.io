@@ -490,6 +490,15 @@ body:not(.user-is-tabbing) a:focus {
 
 .work__image-box {
   margin-bottom: var(--gutter-normal);
+  display: flex;
+  gap: var(--gutter-small);
+  flex-wrap: wrap;
+}
+
+.work__image-box img {
+  flex: 1;
+  min-width: 0;
+  max-width: calc(50% - var(--gutter-small) / 2);
 }
 
 @media(min-width: 901px) {
