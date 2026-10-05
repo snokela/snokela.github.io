@@ -501,6 +501,18 @@ body:not(.user-is-tabbing) a:focus {
   max-width: calc(50% - var(--gutter-small) / 2);
 }
 
+.work__image-box--vertical {
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+}
+
+.work__image-box--vertical img {
+  flex: none;
+  width: 100%;
+  max-width: 75%;
+}
+
 @media(min-width: 901px) {
   .work__image-box {
       flex: 1;
@@ -509,6 +521,10 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 @media(max-width: 900px) {
+  .work__image-box--vertical img {
+      max-width: 100%;
+  }
+
   .work__code {
       height: 4rem;
   }
